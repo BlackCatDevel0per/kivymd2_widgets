@@ -91,7 +91,7 @@ ignore = [
 	"S101",
 ]  # Add RET503?
 
-src = ["src/app", "tests", "scripts"]
+src = ["src/kivymd2_widgets", "tests", "scripts"]
 
 exclude = [
     ".git",

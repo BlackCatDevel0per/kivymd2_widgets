@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kivymd2_widgets"
-version = "0.0.3"
+version = "0.0.4"
 description = "Collection of widgets for the older kivymd 1.1.1 lib (material design 2)."
 authors = ["BlackCatDevel0per <bcdev@mail.ru>"]
 license = "Apache 2.0"
@@ -137,7 +137,6 @@ kivy-examples = "^2.3.0"
 faker = "^22.6.0"
 pyperclip = "^1.8.2"
 ipython = "8.12.3"
-poetry = "^1.8.2"
 
 [tool.poetry.group.other.dependencies]
 rich = "^13.7.0"

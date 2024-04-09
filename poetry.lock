@@ -1301,13 +1301,13 @@ files = [
 
 [[package]]
 name = "poetry-plugin-commands"
-version = "0.0.6"
+version = "0.0.8"
 description = "Poetry plugin for simple custom user commands execution."
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "poetry_plugin_commands-0.0.6-py3-none-any.whl", hash = "sha256:700447fd9e04997c1223602fcd0a51db8ef881656af3a9e35166b5eebefc81f3"},
-    {file = "poetry_plugin_commands-0.0.6.tar.gz", hash = "sha256:7316e592e299438e17b173ed9ab5aab1b3abb089b14d91fa8ba978cab813b02f"},
+    {file = "poetry_plugin_commands-0.0.8-py3-none-any.whl", hash = "sha256:77fc8303d2a5f550641d1d7f779308b95927c32105b1055137c8fa9b7c0badf6"},
+    {file = "poetry_plugin_commands-0.0.8.tar.gz", hash = "sha256:ea8139be30d8f771e93f84aa77e715fc112536f2edc95d2819a0bb1d389bc48c"},
 ]
 
 [package.dependencies]
@@ -1981,4 +1981,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<4.0"
-content-hash = "ed3ea704d619dedf6462c925e645b0d98b6358c99361f2267987ce28fa39a2d2"
+content-hash = "efdfa56bd948d49448d79d4977711021c99e58b7f2176ee1cc99302fae78ef76"

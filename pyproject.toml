@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kivymd2_widgets"
-version = "0.0.2"
+version = "0.0.3"
 description = "Collection of widgets for the older kivymd 1.1.1 lib (material design 2)."
 authors = ["BlackCatDevel0per <bcdev@mail.ru>"]
 license = "Apache 2.0"
@@ -116,16 +116,17 @@ indent-style = "tab"
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
 
-poetry-plugin-commands = "^0.0.6"
 
 [tool.poetry.group.app.dependencies]
 kivy = {extras = ["base"], version = "^2.2.1"}
 kivymd = {git = "https://github.com/kivymd/KivyMD", rev = "1152d3c31229b357336cb9e19cfaa2ba8c6941bc"}  # Before 2.0.0 aka before move to md3
 
 [tool.poetry.group.dev]
-optional = false
+optional = true
 
 [tool.poetry.group.dev.dependencies]
+poetry-plugin-commands = "^0.0.8"
+
 pytest = "^7.4.2"
 pytest-dependency = "^0.5.1"
 ruff = "^0.0.292"
@@ -136,6 +137,7 @@ kivy-examples = "^2.3.0"
 faker = "^22.6.0"
 pyperclip = "^1.8.2"
 ipython = "8.12.3"
+poetry = "^1.8.2"
 
 [tool.poetry.group.other.dependencies]
 rich = "^13.7.0"
